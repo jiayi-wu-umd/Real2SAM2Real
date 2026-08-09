@@ -1,0 +1,5 @@
+# Real2SAM2Real inference extras beyond VideoX-Fun's own requirements.txt.
+peft>=0.11.0          # LoRA injection + state-dict load
+safetensors>=0.4.0    # LoRA + pose_patch_embedding weights
+omegaconf>=2.3.0      # config loading
+opencv-python>=4.8.0  # frame / video IO
